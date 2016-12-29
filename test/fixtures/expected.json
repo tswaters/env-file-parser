@@ -1,0 +1,8 @@
+{
+  "string key": "string value",
+  "nospace": "nospace",
+  "boolean true": true,
+  "boolean false": false,
+  "uppercase-true": true,
+  "uppercase-false": false
+}

@@ -1,0 +1,41 @@
+{
+  "name": "env-file-parser",
+  "version": "1.0.0",
+  "description": "Parses env files into plain objects",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">4"
+  },
+  "scripts": {
+    "clean": "rimraf .nyc_output && rimraf coverage",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint .",
+    "test": "npm run clean && nyc ---reporter lcov --reporter text mocha"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "env",
+    "file",
+    "environment",
+    "file",
+    "parser"
+  ],
+  "author": {
+    "name": "Tyler Waters",
+    "email": "tyler.waters@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tswaters/env-file-parser.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "eslint": "^3.12.2",
+    "mocha": "^3.2.0",
+    "nyc": "^10.0.0",
+    "rimraf": "^2.5.4",
+    "sinon": "^1.17.6"
+  }
+}

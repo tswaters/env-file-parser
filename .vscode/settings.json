@@ -1,0 +1,18 @@
+{
+  "eslint.enable": true,
+  "javascript.validate.enable": false,
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.nyc_output": true,
+    "**/coverage": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.nyc_output": true,
+    "**/coverage": true
+  }
+}
